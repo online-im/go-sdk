@@ -1,0 +1,21 @@
+org_name: ide
+server_name: im-controller
+
+log :
+  "console-log":
+    log_type: console
+    level: debug
+
+registry:
+  "registryKey":
+    service: k8s
+redis:
+  "redisKey":
+    host: localhost
+    port: 6379
+
+provider:
+  "OnlineIMGatewayHTTPProviderName":
+    service_id: im-gateway
+    protocol: http
+    port: 8084
