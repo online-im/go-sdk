@@ -2,11 +2,11 @@ package go_sdk
 
 import (
 	"encoding/json"
-	"git.go-online.org.cn/Glory/glory/common"
-	"git.go-online.org.cn/Glory/glory/config"
-	"git.go-online.org.cn/Glory/glory/log"
-	"git.go-online.org.cn/Glory/glory/plugin"
-	_ "git.go-online.org.cn/Glory/glory/registry/k8s"
+	"github.com/glory-go/glory/common"
+	"github.com/glory-go/glory/config"
+	"github.com/glory-go/glory/log"
+	"github.com/glory-go/glory/plugin"
+	_ "github.com/glory-go/glory/registry/k8s"
 	"github.com/online-im/go-sdk/internal/constant"
 	internalPkg "github.com/online-im/go-sdk/internal/pkg"
 	"github.com/online-im/go-sdk/pkg"
